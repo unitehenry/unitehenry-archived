@@ -130,7 +130,7 @@ export default function Home({ html, pages }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main ref={initContent} />
+      <main ref={initContent} dangerouslySetInnerHTML={{ __html: html }} />
 
       <footer> 
         <div id="pages">
