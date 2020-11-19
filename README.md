@@ -50,11 +50,12 @@ Associate in Science, Computer Science Degree
 
 **Raving Fan Merit Award** - JULY 2020
 
-[https://unitehenry.com/raving-fan-1.pdf](https://unitehenry.com/raving-fan-1.pdf)
+[https://unitehenry.com/raving-fan-2.pdf](https://unitehenry.com/raving-fan-2.pdf)
 
 **Raving Fan Merit Award** - SEPTEMBER 2019
 
-[https://unitehenry.com/raving-fan-2.pdf](https://unitehenry.com/raving-fan-2.pdf)
+[https://unitehenry.com/raving-fan-1.pdf](https://unitehenry.com/raving-fan-1.pdf)
+
 
 **HackRU Fall 2019 Education Track Winner** - OCTOBER 2019
 
