@@ -1,0 +1,49 @@
+.return-home {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.blog-article {
+  border: 5px solid #000;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.blog-article img {
+  max-width: 300px;
+  object-fit: cover;
+  border-right: 2px solid #000;
+}
+
+.blog-article-content {
+  padding: 15px; 
+}
+
+.blog-button {
+  transition: color 200ms, background-color 200ms; 
+  appearance: button; 
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 13px;
+  border: 2px solid #000;
+}
+
+.blog-button:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+}
+
+@media (max-width: 800px) {
+  .blog-article h2 {
+    margin: 0;
+  }
+
+  .blog-article img {
+    display: none; 
+  }
+}

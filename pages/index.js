@@ -1,65 +1,143 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import CONFIG from '../config';
+import style from '../styles/Home.module.css';
+import { useState } from 'react';
+import Head from 'next/head';
 
-export default function Home() {
+export async function getStaticProps() {
+  const path = require('path');
+  const fs = require('fs');
+  const { Converter } = require('showdown');
+  const converter = new Converter();
+
+  function getPages() {
+    return new Promise((res) => {
+      fs.readdir(path.join(process.cwd(), 'pages'), (err, data) => {
+        const pageFiles = data.filter((f) => {
+          return !CONFIG['pageExcludes'].filter((ex) => f.includes(ex)).pop();
+        });
+
+        res(pageFiles.map((p) => p.replace('.js', '')));
+      });
+    });
+  }
+
+  function parseREADME() {
+    return new Promise((res) => {
+      fs.readFile(path.join(process.cwd(), 'README.md'), (err, data) => {
+        const readme = data.toString();
+        const pReadme = readme.replace(
+          new RegExp(`\\(${CONFIG['relativePathReplace']}`, 'g'),
+          '(/'
+        );
+        const html = converter.makeHtml(pReadme);
+        res(html);
+      });
+    });
+  }
+
+  const html = await parseREADME();
+  const pages = await getPages();
+
+  return {
+    props: { html, pages },
+  };
+}
+
+export default function Home({ html, pages }) {
+  const [title, setTitle] = useState('Portfolio');
+  const [description, setDescription] = useState('Portfolio');
+  const [footerPages, setFooterPages] = useState(false);
+
+  const gatherSocials = (el, socials = []) => {
+    const prev = el.previousElementSibling;
+
+    if (prev && prev.tagName === 'P') {
+      const social = prev.querySelector('a');
+      social && socials.push(social);
+
+      return gatherSocials(prev, socials);
+    } else {
+      return socials;
+    }
+  };
+
+  const createSocialLink = (href) => {
+    function createIcon(icon, val, title = false) {
+      const i = document.createElement('i');
+      i.setAttribute('class', `${icon} fa-lg`);
+
+      const lnk = document.createElement('a');
+      title && lnk.setAttribute('title', title); 
+      
+      lnk.setAttribute('class', style['social-link']);
+      lnk.setAttribute('href', val);
+      lnk.setAttribute('target', 'blank');
+      lnk.append(i);
+
+      return lnk;
+    }
+
+    const socConf = CONFIG['socials'].filter(({ hrefInclude }) => href.includes(hrefInclude));
+    const soc = socConf.pop(); 
+
+    if(soc) {
+      return createIcon(soc['icon'], href, soc['title']);
+    }
+    
+  };
+
+  const initContent = (main) => {
+    if (main) {
+      main.innerHTML = html;
+
+      const header = main.querySelector('h1');
+      header && (header.textContent !== title) && setTitle(header.textContent);
+
+      const firstBreak = main.querySelector('hr');
+      const socials = gatherSocials(firstBreak);
+      
+      const icons = socials.map((soc) => {
+        const closest = soc.closest('p');
+        const icon = createSocialLink(soc.getAttribute('href'));
+
+        if (icon && closest) {
+          closest.remove();
+          firstBreak.after(icon);
+        }
+
+        return icon;
+      });
+
+      if(footerPages === false) {
+        setFooterPages([...pages.map(p => ({text: p, href: p})), ...icons.map((soc) => {
+          if(soc) {
+            return {
+              text: soc.getAttribute('title'),
+              href: soc.getAttribute('href')
+            };
+          }
+        })]);
+      }
+
+    }
+  };
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title> {title} </title>
+        <meta name="description" content={description}></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <main ref={initContent} />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+      <footer> 
+        <div id="pages">
+          { footerPages ? footerPages.map((p) => p ? <a key={p['href']} href={p['href']}>{ p['text'] }</a> : '') : '' }
+        </div> 
+        {/* <div id="copy">{ '\u00a9' } Henry Unite { new Date().getFullYear() }</div> */}
       </footer>
     </div>
-  )
+  );
 }

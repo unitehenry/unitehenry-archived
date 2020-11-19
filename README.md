@@ -1,30 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Henry Unite
 
-## Getting Started
+**Resume:** [https://unitehenry.com/resume.pdf](https://unitehenry.com/resume.pdf)
 
-First, run the development server:
+**Email:** [henry@unitehenry.com](mailto:henry@unitehenry.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**GitHub:** [https://github.com/unitehenry](https://github.com/unitehenry)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**LinkedIn:** [henry@unitehenry.com](https://www.linkedin.com/in/unitehenry/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Blog:** [https://dev.to/unitehenry](https://dev.to/unitehenry)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+MAY 2019 - NOVEMBER 2020
 
-## Deploy on Vercel
+* Full stack .NET framework and SQL server application developement
+* Develop client and server controls for user interface
+* Research new technologies and integration design for development with existing systems
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Software Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Portfolio** - [https://unitehenry.com/](https://unitehenry.com/)
+
+Visit for additional information and software career overview
+
+**Striven Editor** - [https://github.com/striven-erp/striven-editor](https://github.com/striven-erp/striven-editor)
+
+Open source contributor and developer of custom built WYSIWYG editor for the Striven ERP portal
+
+**Hackathons** - [https://devpost.com/unitehenry](https://devpost.com/unitehenry)
+
+Passionate “hacker” and enthusiast for writing code and developing minimal viable products under a weekend span of time
+
+## Education
+
+[**Rowan College of South Jersey, Vineland NJ**](https://rcsj.edu/) - MAY 2020
+
+Associate in Science, Computer Science Degree
+
+## Awards and Certifications
+
+**Free Code Camp Full Stack Developer Certification** - APRIL 2020
+
+[https://www.freecodecamp.org/certification/fccc1c4406e-646e-478d-a7b6-771d8c2139ba/full-stack](https://www.freecodecamp.org/certification/fccc1c4406e-646e-478d-a7b6-771d8c2139ba/full-stack)
+
+**Raving Fan Merit Award** - JULY 2020
+
+[https://unitehenry.com/raving-fan-1.pdf](https://unitehenry.com/raving-fan-1.pdf)
+
+**Raving Fan Merit Award** - SEPTEMBER 2019
+
+[https://unitehenry.com/raving-fan-2.pdf](https://unitehenry.com/raving-fan-2.pdf)
+
+**HackRU Fall 2019 Education Track Winner** - OCTOBER 2019
+
+[https://devpost.com/software/study-oasis](https://devpost.com/software/study-oasis)
