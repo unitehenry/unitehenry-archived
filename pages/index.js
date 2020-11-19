@@ -44,7 +44,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ html, pages }) {
-  const [title, setTitle] = useState('Portfolio');
+  const [title, setTitle] = useState(CONFIG['title']);
   const [description, setDescription] = useState('Portfolio');
   const [footerPages, setFooterPages] = useState(false);
 
