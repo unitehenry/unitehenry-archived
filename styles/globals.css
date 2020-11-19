@@ -69,7 +69,8 @@ main a {
 footer {
   margin: 0 auto; 
   text-align: center;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
+  min-height: 100px;
   font-weight: normal;
 }
 
