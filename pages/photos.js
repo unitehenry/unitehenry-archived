@@ -9,7 +9,7 @@ export async function getStaticProps() {
       try {
       const req = await axios({
         method: 'GET',
-        url: 'https://vsco.co/reidanna/gallery'
+        url: 'https://vsco.co/unitehenry/gallery'
       });
 
       const data = req['data']; 

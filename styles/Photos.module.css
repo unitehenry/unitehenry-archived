@@ -27,7 +27,8 @@
 }
 
 @media (max-width: 800px) {
-  .photo-display img {
+  .photo-display a {
     width: 100%;
+    max-width: 100%;
   }
 }
