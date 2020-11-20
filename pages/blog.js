@@ -48,7 +48,9 @@ export default function Blog({ articles }) {
         <a className={style['return-home']} title="Home" href="/">Return Home</a>
 
         <section>
-        
+       
+        { (articles.length === 0) && <p>No Blog Posts</p>}
+
         {
           articles.map(({ title, description, date, url, image }) => {
             return (
@@ -57,7 +59,7 @@ export default function Blog({ articles }) {
                 <div className={style['blog-article-content']}>
                   <h2>{ title }</h2>
                   <p>{ description }</p>
-                  <a className={style['blog-button']} href={url} target="_blank">Read Article</a>
+                  <a title="Read Article" className={style['blog-button']} href={url} target="_blank">Read Article</a>
                 </div>
               </article>
             );
