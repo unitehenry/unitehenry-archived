@@ -7,8 +7,10 @@ export async function getStaticProps() {
     return new Promise(async (res) => {
       const req = await axios({
         method: 'GET',
-        url: 'https://dev.to/api/articles?username=unitehenry'
+        url: 'https://dev.to/api/articles?username=unitehenry&state=all'
       });
+
+      console.log(req['data']);
 
       if(req['data']) {
         try {
