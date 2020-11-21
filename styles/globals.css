@@ -36,6 +36,7 @@ main hr {
 
 main strong {
   letter-spacing: 0px;
+  word-break: break-word;
 }
 
 main p {
