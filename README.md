@@ -6,13 +6,21 @@
 
 **GitHub:** [https://github.com/unitehenry](https://github.com/unitehenry)
 
-**LinkedIn:** [henry@unitehenry.com](https://www.linkedin.com/in/unitehenry/)
+**LinkedIn:** [https://www.linkedin.com/in/unitehenry](https://www.linkedin.com/in/unitehenry/)
 
 **Blog:** [https://dev.to/unitehenry](https://dev.to/unitehenry)
 
 ---
 
 ## Experience
+
+[**Bicycle Transit Systems, Philadelphia PA**](https://bicycletransitsystems.com/) - *Full Stack Developer*
+
+DECEMBER 2020 - PRESENT
+
+* Native iOS and Android development 
+* Full featured Wordpress development
+* Internal operations application development
 
 [**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
 
