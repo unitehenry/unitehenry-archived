@@ -1,0 +1,29 @@
+<script>
+  function removeSocial(el) {
+    if(el.nextElementSibling.tagName !== 'H2') {
+      el.nextElementSibling.remove();
+    removeSocial(el);
+    }
+  }
+
+  function addDetails(el) {
+    var details = document.createElement('div');
+    details.setAttribute('id', 'details');
+    details.innerHTML = `
+      <p>
+        827 N 15th Street <br />
+        Philadelphia, Pennsylvania <br />
+        (609) 805 - 6605 <br />
+        henry@unitehenry.com
+      </p>
+    `;
+
+    el.after(details);
+  }
+
+  addEventListener('load', function () {
+    removeSocial(document.querySelector('h1'));
+    addDetails(document.querySelector('h1'));
+  })
+
+</script>
