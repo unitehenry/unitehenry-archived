@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# logs
+blogs/*.css
+blogs/*.html
+
 # testing
 /coverage
 
