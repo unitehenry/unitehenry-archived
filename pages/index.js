@@ -95,7 +95,7 @@ export default function Home({ html, pages }) {
 
       const firstBreak = main.querySelector('hr');
       const socials = gatherSocials(firstBreak);
-      
+
       const icons = socials.map((soc) => {
         const closest = soc.closest('p');
         const icon = createSocialLink(soc.getAttribute('href'));
