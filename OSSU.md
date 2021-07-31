@@ -1,0 +1,27 @@
+## Curriculum
+
+- [x] [How to Code: Simple Data](https://courses.edx.org/certificates/f24242bb00934b47a74ffb5794c61763)
+- [ ] How to Code: Complex Data
+- [ ] Programming Languages, Part A
+- [ ] Programming Languages, Part B
+- [ ] Programming Languages, Part C
+- [ ] Calculus 1A: Differentiation
+- [ ] Calculus 1B: Integration
+- [ ] Calculus 1C: Coordinate Systems & Infinite Series
+- [ ] Mathematics for Computer Science
+- [ ] The Missing Semester of Your CS Education
+- [ ] Build a Modern Computer from First Principles: From Nand to Tetris
+- [ ] Build a Modern Computer from First Principles: Nand to Tetris Part II
+- [ ] Operating Systems: Three Easy Pieces
+- [ ] Introduction to Computer Networking
+- [ ] Divide and Conquer, Sorting and Searching, and Randomized Algorithms
+- [ ] Graph Search, Shortest Paths, and Data Structures
+- [ ] Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming
+- [ ] Shortest Paths Revisited, NP-Complete Problems and What To Do About Them
+- [ ] Databases: Modeling and Theory
+- [ ] Databases: Relational Databases and SQL
+- [ ] Databases: Semistructured Data
+- [ ] Machine Learning
+- [ ] Computer Graphics
+- [ ] Software Engineering: Introduction
+- [ ] Fullstack Open - Final Capstone Project

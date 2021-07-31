@@ -37,9 +37,9 @@ export async function getStaticProps() {
 }
 
 export default function Photos({ images }) {
-  
+
   console.log(images); 
-  
+
   return (
     <main>
       <h1>Photos</h1>

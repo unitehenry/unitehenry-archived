@@ -1,0 +1,70 @@
+.return-home {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.ossu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.ossu-title a {
+  margin-bottom: 5px;
+}
+
+.ossu-page h2 {
+  margin-top: 2rem;
+}
+
+.ossu-page li {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.ossu-page li a {
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.ossu-page li a:hover {
+  text-decoration: underline;
+}
+
+.ossu-page li input {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 2px solid #000000;
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.ossu-page li input[checked] {
+  background-color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .ossu-page li {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 850px) {
+  .ossu-page li {
+    font-size: small;
+  }
+
+  .ossu-page li input {
+    padding: 4px;
+  }
+
+  .ossu-title {
+    font-size: 14px;
+  }
+}

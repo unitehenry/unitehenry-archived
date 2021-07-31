@@ -7,7 +7,7 @@ export async function getStaticProps() {
   const path = require('path');
   const fs = require('fs');
   const { Converter } = require('showdown');
-  const converter = new Converter();
+  const converter = new Converter({ openLinksInNewWindow: true });
 
   function getPages() {
     return new Promise((res) => {
