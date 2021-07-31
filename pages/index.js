@@ -45,7 +45,6 @@ export async function getStaticProps() {
 
 export default function Home({ html, pages }) {
   const [title, setTitle] = useState(CONFIG['title']);
-  const [description, setDescription] = useState('Portfolio');
   const [footerPages, setFooterPages] = useState(false);
 
   const gatherSocials = (el, socials = []) => {
@@ -126,7 +125,7 @@ export default function Home({ html, pages }) {
     <div>
       <Head>
         <title> {title} </title>
-        <meta name="description" content={description}></meta>
+        <meta name="description" content={CONFIG['description']}></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

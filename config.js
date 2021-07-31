@@ -1,6 +1,6 @@
 export default {
   title: 'Henry Unite', 
-  description: 'Software Developer from Philadelphia, Pennsylvania',
+  description: 'Full Stack Software Developer from Philadelphia, Pennsylvania - Currently leading the bike share revolution at Bicycle Transit Systems',
   relativePathReplace: 'https://unitehenry.com/', 
   pageExcludes: [
     'index',
