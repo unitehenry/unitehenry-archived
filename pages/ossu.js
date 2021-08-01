@@ -58,9 +58,9 @@ export default function ossu({ html }) {
       <h1>OSSU</h1>
       <hr />
       <a className={style['return-home']} title="Home" href="/">Return Home</a>
-      <section 
-        className={style['ossu-page']} 
-        ref={initContent} 
+      <section
+        className={style['ossu-page']}
+        ref={initContent}
         dangerouslySetInnerHTML={{ __html: html }} />
     </main>
   );
