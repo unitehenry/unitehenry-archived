@@ -46,6 +46,10 @@ Passionate “hacker” and enthusiast for writing code and developing minimal v
 
 ## Education
 
+[**OSSU Computer Science**](https://unitehenry.com/ossu)
+
+Path to a free self-taught education in Computer Science
+
 [**Rowan College of South Jersey, Vineland NJ**](https://rcsj.edu/) - MAY 2020
 
 Associate in Science, Computer Science Degree
