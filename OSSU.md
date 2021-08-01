@@ -1,3 +1,7 @@
+> The [OSSU curriculum](https://github.com/ossu/computer-science) is a complete education in computer science using online materials. It's not merely for career training or professional development. It's for those who want a proper, well-rounded grounding in concepts fundamental to all computing disciplines, and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own, but with support from a worldwide community of fellow learners.
+
+## Progress
+
 ## Curriculum
 
 - [x] [How to Code: Simple Data](https://courses.edx.org/certificates/f24242bb00934b47a74ffb5794c61763)
