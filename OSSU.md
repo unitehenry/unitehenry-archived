@@ -5,7 +5,7 @@
 ## Curriculum
 
 - [x] [How to Code: Simple Data](https://courses.edx.org/certificates/f24242bb00934b47a74ffb5794c61763)
-- [ ] How to Code: Complex Data
+- [x] [How to Code: Complex Data](https://courses.edx.org/certificates/245b2bf723884664889f620082408d31)
 - [ ] Programming Languages, Part A
 - [ ] Programming Languages, Part B
 - [ ] Programming Languages, Part C
