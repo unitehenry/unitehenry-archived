@@ -14,11 +14,18 @@
 
 ## Experience
 
+[**LULA, Miami FL**](https://lula.is/) - *Full Stack Developer*
+
+SEPTEMBER 2021 - PRESENT
+
+* Domain-driven design, CQRS, event sourcing, F#
+* Implemented microfrontend architecture with GraphQL
+
 [**Bicycle Transit Systems, Philadelphia PA**](https://bicycletransitsystems.com/) - *Full Stack Developer*
 
-DECEMBER 2020 - PRESENT
+DECEMBER 2020 - AUGUST 2021
 
-* Native iOS and Android development 
+* Native iOS and Android development
 * Full featured Wordpress development
 * Internal operations application development
 
@@ -27,8 +34,8 @@ DECEMBER 2020 - PRESENT
 MAY 2019 - NOVEMBER 2020
 
 * Full stack .NET framework and SQL server application developement
-* Develop client and server controls for user interface
-* Research new technologies and integration design for development with existing systems
+* Client-side UI component module development
+* Implemented elastic search cluster to power search (ELK Stack)
 
 ## Software Projects
 
