@@ -21,7 +21,7 @@ SEPTEMBER 2021 - PRESENT
 * Domain-driven design, CQRS, event sourcing, F#
 * Implemented microfrontend architecture with GraphQL
 
-[**Bicycle Transit Systems, Philadelphia PA**](https://bicycletransitsystems.com/) - *Full Stack Developer*
+[**Bicycle Transit Systems, Philadelphia PA**](https://www.bicycletransit.com/) - *Full Stack Developer*
 
 DECEMBER 2020 - AUGUST 2021
 
