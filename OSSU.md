@@ -17,15 +17,22 @@
 - [ ] Build a Modern Computer from First Principles: From Nand to Tetris
 - [ ] Build a Modern Computer from First Principles: Nand to Tetris Part II
 - [ ] Operating Systems: Three Easy Pieces
-- [ ] Introduction to Computer Networking
+- [ ] Computer Networking: a Top-Down Approach
 - [ ] Divide and Conquer, Sorting and Searching, and Randomized Algorithms
 - [ ] Graph Search, Shortest Paths, and Data Structures
 - [ ] Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming
 - [ ] Shortest Paths Revisited, NP-Complete Problems and What To Do About Them
+- [ ] Cybersecurity Fundamentals
+- [ ] Principles of Secure Coding
+- [ ] Identifying Security Vulnerabilities
+- [ ] Identifying Security Vulnerabilities in C/C++Programming
 - [ ] Databases: Modeling and Theory
 - [ ] Databases: Relational Databases and SQL
 - [ ] Databases: Semistructured Data
 - [ ] Machine Learning
 - [ ] Computer Graphics
 - [ ] Software Engineering: Introduction
+- [ ] Ethics, Technology and Engineering
+- [ ] Introduction to Intellectual Property
+- [ ] Data Privacy Fundamentals
 - [ ] Fullstack Open - Final Capstone Project
