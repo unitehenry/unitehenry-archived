@@ -6,7 +6,7 @@
 
 - [x] [How to Code: Simple Data](https://courses.edx.org/certificates/f24242bb00934b47a74ffb5794c61763)
 - [x] [How to Code: Complex Data](https://courses.edx.org/certificates/245b2bf723884664889f620082408d31)
-- [ ] Programming Languages, Part A
+- [x] [Programming Languages, Part A](https://www.coursera.org/account/accomplishments/certificate/X2JQAKBJJ4YF)
 - [ ] Programming Languages, Part B
 - [ ] Programming Languages, Part C
 - [ ] Calculus 1A: Differentiation
