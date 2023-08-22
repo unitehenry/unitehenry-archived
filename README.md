@@ -14,46 +14,53 @@
 
 ## Experience
 
+[**LULA, Miami FL**](https://lula.is/) - *Senior Software Engineer*
+
+APRIL 2023 - PRESENT
+
+* Revamped the internal claims processing and reduced the amount of time it took to file a claim from days to minutes, by integrating with different claims administrators' systems.
+* Automated the process of notifying customers about their claims, by using Twilio and Sendgrid to send communication about critical steps in their claims process.
+* Built a third party claims flow that reduced call volume by hundreds of hours, by building a single page web app for third parties to self-service their claim filings.
+
 [**LULA, Miami FL**](https://lula.is/) - *Full Stack Developer*
 
-SEPTEMBER 2021 - PRESENT
+SEPTEMBER 2021 - MARCH 2023
 
-* Domain-driven design, CQRS, event sourcing, F#
-* Implemented microfrontend architecture with GraphQL
+* Built the original MVP that scaled the company from hundreds to thousands of users, by bootstrapping the intitial version of the product on Firebase.
+* Automated the process of generating thousands of insurance documents, by building headless chrome automations to login and download documents from the carrier's portal.
+* Designed a system for teams to deploy autonomously, by adopting micro-frontend architecture and backends for frontends
 
 [**Bicycle Transit Systems, Philadelphia PA**](https://www.bicycletransit.com/) - *Full Stack Developer*
 
 DECEMBER 2020 - AUGUST 2021
 
-* Native iOS and Android development
-* Full featured Wordpress development
-* Internal operations application development
+* Built bike monitoring to prevent valuable assets from being stolen, by integrating with GPS modules to track bikes across multiple cities
+* Prevented bikes from being stolen in major cities, by integrating with Twilio One-Time Passcode API upon purchasing a bike pass.
 
 [**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
 
 MAY 2019 - NOVEMBER 2020
 
-* Full stack .NET framework and SQL server application developement
-* Client-side UI component module development
-* Implemented elastic search cluster to power search (ELK Stack)
+* Created a text editor for an internship project that made it to production, by creating a WYSIWYG library from pure JavaScript and deployed as an npm module.
+* Implemented a search solution that indexed over a million records across multiple tenants, by deploying an Elasticsearch cluster using Docker.
 
 ## Software Projects
 
-**Portfolio** - [https://unitehenry.com/](https://unitehenry.com/)
+**Satosa** - [https://satosa.com](https://satosa.com/)
 
-Visit for additional information and software career overview
+Launched an MVP on [Product Hunt](https://www.producthunt.com/products/satosa) and made it to the front page, by offering a service that manages agreements on your websites and apps with a low-friction click to accept e-signature alternative.
 
 **Striven Editor** - [https://github.com/striven-erp/striven-editor](https://github.com/striven-erp/striven-editor)
 
-Open source contributor and developer of custom built WYSIWYG editor for the Striven ERP portal
+Contributed and maintained an open source WYSIWYG editor as an internship project that made it to production and was adopted by the company I was working at.
 
 **Hackathons** - [https://devpost.com/unitehenry](https://devpost.com/unitehenry)
 
-Passionate “hacker” and enthusiast for writing code and developing minimal viable products under a weekend span of time
+Developed a skill for building prototypes by participating in over a half-dozen hackathons, and placing in several categories.
 
 ## Education
 
-[**OSSU Computer Science**](https://unitehenry.com/ossu)
+[**OSSU Computer Science**](https://github.com/ossu/computer-science)
 
 Path to a free self-taught education in Computer Science
 
