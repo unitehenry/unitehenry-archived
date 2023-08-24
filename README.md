@@ -30,12 +30,16 @@ SEPTEMBER 2021 - MARCH 2023
 * Automated the process of generating thousands of insurance documents, by building headless chrome automations to login and download documents from the carrier's portal.
 * Designed a system for teams to deploy autonomously, by adopting micro-frontend architecture and backends for frontends
 
+*Skills: HTML, CSS, JavaScript, TypeScript, Python, F#, C#, Terraform, Vue, NextJS, React, .NET Core, GraphQL, Apollo GraphQL, NodeJS, Google Cloud Platform, GitHub Actions, Honeycomb, Git, Bash, Docker, Kubernetes, Postgres SQL, Big Query*
+
 [**Bicycle Transit Systems, Philadelphia PA**](https://www.bicycletransit.com/) - *Full Stack Developer*
 
 DECEMBER 2020 - AUGUST 2021
 
 * Built bike monitoring to prevent valuable assets from being stolen, by integrating with GPS modules to track bikes across multiple cities
 * Prevented bikes from being stolen in major cities, by integrating with Twilio One-Time Passcode API upon purchasing a bike pass.
+
+*Skills: HTML, CSS, JavaScript, Vue, PHP, Wordpress, Digital Ocean, MySQL, Python, Flask, SQL Alchemy, Ansible, GitHub Actions, Bash, Linux, Git*
 
 [**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
 
@@ -44,15 +48,21 @@ MAY 2019 - NOVEMBER 2020
 * Created a text editor for an internship project that made it to production, by creating a WYSIWYG library from pure JavaScript and deployed as an npm module.
 * Implemented a search solution that indexed over a million records across multiple tenants, by deploying an Elasticsearch cluster using Docker.
 
+*Skills: HTML, CSS, JavaScript, Vue, Elastic Search, Docker, GitLab, ASP.NET Webforms, SQL Server, Visual Basic, Docker, C#*
+
 ## Software Projects
 
 **Satosa** - [https://satosa.com](https://satosa.com/)
 
 Launched an MVP on [Product Hunt](https://www.producthunt.com/products/satosa) and made it to the front page, by offering a service that manages agreements on your websites and apps with a low-friction click to accept e-signature alternative.
 
+*Skills: Rust, React, TypeScript, Terraform, GitHub Actions, Google Cloud Platform, Cloud Run, NodeJS, MongoDB Atlas*
+
 **Striven Editor** - [https://github.com/striven-erp/striven-editor](https://github.com/striven-erp/striven-editor)
 
 Contributed and maintained an open source WYSIWYG editor as an internship project that made it to production and was adopted by the company I was working at.
+
+*Skills: Open Source Development, Chai, Jest, JavaScript, Node Package Manager*
 
 **Hackathons** - [https://devpost.com/unitehenry](https://devpost.com/unitehenry)
 
