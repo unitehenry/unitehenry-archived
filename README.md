@@ -39,7 +39,7 @@ DECEMBER 2020 - AUGUST 2021
 * Built bike monitoring to prevent valuable assets from being stolen, by integrating with GPS modules to track bikes across multiple cities
 * Prevented bikes from being stolen in major cities, by integrating with Twilio One-Time Passcode API upon purchasing a bike pass.
 
-*Skills: HTML, CSS, JavaScript, Vue, PHP, Wordpress, Digital Ocean, MySQL, Python, Flask, SQL Alchemy, Ansible, GitHub Actions, Bash, Linux, Git*
+*Skills: HTML, CSS, JavaScript, Vue, PHP, Wordpress, Digital Ocean, MySQL, Python, Flask, SQL Alchemy, Ansible, GitHub Actions, Bash, Linux, Git, Swift, Java, XCode, Android Studio*
 
 [**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
 
