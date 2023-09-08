@@ -27,14 +27,14 @@ APRIL 2023 - PRESENT
 SEPTEMBER 2021 - MARCH 2023
 
 * Built the original MVP that scaled the company from hundreds to thousands of users, by bootstrapping the intitial version of the product on Firebase.
-* Automated the process of generating thousands of insurance documents, by building headless chrome automations to login and download documents from the carrier's portal.
+* Automated the process of generating thousands of insurance documents which would manually take an average of 20 minutes to do, by building headless chrome automations to login and download documents from the carrier’s portal.
 * Designed a system for teams to deploy autonomously, by adopting micro-frontend architecture and backends for frontends
 
 [**Bicycle Transit Systems, Philadelphia PA**](https://www.bicycletransit.com/) - *Full Stack Developer*
 
 DECEMBER 2020 - AUGUST 2021
 
-* Built bike monitoring to prevent valuable assets from being stolen, by integrating with GPS modules to track bikes across multiple cities
+* Built monitoring to prevent over $10K worth of bike assets from being stolen on a monthly basis, by integrating with GPS modules to track bikes across multiple cities.
 * Prevented bikes from being stolen in major cities, by integrating with Twilio One-Time Passcode API upon purchasing a bike pass.
 
 [**Striven, Lumberton NJ**](https://striven.com/) - *Software Developer*
